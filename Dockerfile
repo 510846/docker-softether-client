@@ -2,7 +2,7 @@ FROM alpine:3.6
 MAINTAINER SFoxDev <admin@sfoxdev.com>
 
 ENV LANG="en_US.UTF-8" \
-    SOFTETHER_VERSION="v4.22-9634-beta"
+    SOFTETHER_VERSION="v4.42-9798-rtm"
 
 ADD scripts/ /
 RUN set -ex ; \
